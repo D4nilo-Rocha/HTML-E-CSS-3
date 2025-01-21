@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando conteúdos</title>
+    <style>
+        div.num {
+            margin: auto ;
+            padding-bottom: 65%;
+            position: relative;
+        }
+
+        div.num > iframe {
+            position: absolute;
+            
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+ </head>
+ <body>
+    <h1>Conteúdos dentro de iframes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quibusdam dicta deleniti quod, eaque cumque ea quis ipsa voluptate harum alias et suscipit vero asperiores? Quae eligendi numquam deleniti aliquid?</p>
+    <h2>Videos</h2>
+    <div class="num">
+        <iframe src="https://player.vimeo.com/video/1042027725?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="4096" height="2160" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Sanctuary"></iframe>
+    </div>
+    <h2>Mapas do google
+        <div class="num"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15460.333305013106!2d-40.22679485184721!3d-14.364589666388198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7476eb7d84c06cd%3A0xbfe1f9432308009b!2sBoa%20Nova%2C%20BA%2C%2045250-000!5e0!3m2!1spt-BR!2sbr!4v1736892781845!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+        <h2>Mapas do waze</h2>
+        <div class="num"><iframe src="https://embed.waze.com/iframe?zoom=16&lat=-14.365143&lon=-40.207596&ct=livemap" width="600" height="450" allowfullscreen></iframe></div>
+    </h2>
+
+    <h2>Google documents</h2>
+    <div class="num"><iframe src="https://docs.google.com/document/d/e/2PACX-1vTRvhpO3SOg7fggPx3TO3hu_taeD1u-ATeQaa-nk8_tbGBf1xE4Q8HvIU7tjqSqaA/pub?embedded=true"></iframe></div>
+ </body>
+ </html>
